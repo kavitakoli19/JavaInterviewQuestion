@@ -31,10 +31,12 @@ public class FinallBlock {
 
 }
 
-```
+/*
+Output::
 
 Inside catch
 Fianlly Block : 30
-
-```
 Returned value  : 20
+
+*/
+
