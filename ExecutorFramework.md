@@ -9,3 +9,6 @@ http://tutorials.jenkov.com/java-util-concurrent/java-future.html
 
 Dipawesh, 11:36 PM
 http://tutorials.jenkov.com/java-util-concurrent/threadpoolexecutor.html
+
+
+http://tutorials.jenkov.com/java-concurrency/synchronized.html
