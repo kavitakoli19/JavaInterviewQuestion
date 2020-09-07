@@ -5,6 +5,8 @@ must reads ::
 
 https://www.vogella.com/tutorials/eclipse.html
 
+https://www.programcreek.com/2011/09/how-eclipse-plugin-works-a-simple-menu/
+
 
 https://www.vogella.com/tutorials/SWT/article.html
 
