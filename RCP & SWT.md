@@ -1,6 +1,11 @@
 
 ---------------------------------------------
 must reads :: 
+
+
+https://www.vogella.com/tutorials/eclipse.html
+
+
 https://www.vogella.com/tutorials/SWT/article.html
 
 https://www.vogella.com/tutorials/EclipseRCP/article.html
