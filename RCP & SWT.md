@@ -36,6 +36,6 @@ https://wiki.eclipse.org/images/d/d9/EclipseCon_RCP_Tutorial_2006.pdf
 
 http://www.olmedilla.info/students/docs/eclipseRCP-1.pdf
 
-http://www.accs.uq.edu.au/documents/Eclipse/Tutorial%2008.pdf
+http://www.accs.uq.edu.au/documents/Eclipse/Tutorial%2008.pdf :: RCP porject and RCP product creation
 
 https://www.eclipsecon.org/2005/presentations/EclipseCon2005_Tutorial8.pdf
