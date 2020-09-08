@@ -8,6 +8,8 @@ plugin lifecycle :: 1. https://github.com/pf4j/pf4j/blob/master/pf4j/src/main/ja
 SWT package Java doc :: https://help.eclipse.org/2020-06/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/package-summary.html
 
 SWT widgets with javadoc link :: https://www.eclipse.org/swt/widgets/
+
+Events :: https://help.eclipse.org/2020-06/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/package-summary.html
                     
  https://www.ibm.com/developerworks/opensource/tutorials/os-ecl-rcpapp/index.html
 
