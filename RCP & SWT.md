@@ -4,6 +4,9 @@ must reads ::
 
 plugin lifecycle :: 1. https://github.com/pf4j/pf4j/blob/master/pf4j/src/main/java/org/pf4j/PluginState.java
                     2. https://pf4j.org/doc/plugin-lifecycle.html
+                    
+                    
+ https://www.ibm.com/developerworks/opensource/tutorials/os-ecl-rcpapp/index.html
 
 https://www.vogella.com/tutorials/eclipse.html
 
