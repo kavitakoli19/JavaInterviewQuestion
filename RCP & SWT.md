@@ -5,6 +5,9 @@ must reads ::
 plugin lifecycle :: 1. https://github.com/pf4j/pf4j/blob/master/pf4j/src/main/java/org/pf4j/PluginState.java
                     2. https://pf4j.org/doc/plugin-lifecycle.html
                     
+SWT package Java doc :: https://help.eclipse.org/2020-06/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/package-summary.html
+
+SWT widgets with javadoc link :: https://www.eclipse.org/swt/widgets/
                     
  https://www.ibm.com/developerworks/opensource/tutorials/os-ecl-rcpapp/index.html
 
