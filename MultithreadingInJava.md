@@ -1,4 +1,7 @@
 
+
+- Thread States : https://docs.oracle.com/javase/7/docs/api/java/lang/Thread.State.html
+
 1. https://javaconceptoftheday.com/how-to-identify-a-thread-in-java/
 
 2. Sleep method :: https://javaconceptoftheday.com/thread-sleep-method-java/
