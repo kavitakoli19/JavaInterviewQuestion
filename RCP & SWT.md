@@ -1,5 +1,9 @@
 Entire content :: https://www.vogella.com/tutorials/eclipse.html
 
+Image registry :: http://harikrushnav.blogspot.com/2015/12/creating-image-registry-in-eclipse-rcp.html
+
+UI thread :: https://www.vogella.com/tutorials/EclipseJobs/article.html#eclipsejobs_uisynchronize
+
 Use this link to for all the detailed explantion
 ---------------------------------------------
 must reads :: 
