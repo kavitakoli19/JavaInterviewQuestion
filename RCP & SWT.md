@@ -6,6 +6,17 @@ UI thread :: https://www.vogella.com/tutorials/EclipseJobs/article.html#eclipsej
 
 synchAscynMethod : https://stackoverflow.com/questions/11100171/difference-between-syncexec-and-asyncexec-of-display-class
 
+https://www.vogella.com/tutorials/EclipseJobs/article.html#eclipsejobs_uisynchronize
+
+https://wiki.eclipse.org/FAQ_Why_do_I_have_to_dispose_of_colors,_fonts,_and_images%3F
+http://harikrushnav.blogspot.com/2015/12/creating-image-registry-in-eclipse-rcp.html
+
+https://help.eclipse.org/2020-06/index.jsp?topic=/org.eclipse.platform.doc.isv/reference/api/org/eclipse/swt/widgets/package-summary.html
+
+http://www.ezdev.org/view/swt/7153
+
+https://www.globalguideline.com/interview_questions/Questions.php?sc=SWT_JFace
+
 Use this link to for all the detailed explantion
 ---------------------------------------------
 must reads :: 
