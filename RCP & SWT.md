@@ -4,6 +4,8 @@ Image registry :: http://harikrushnav.blogspot.com/2015/12/creating-image-regist
 
 UI thread :: https://www.vogella.com/tutorials/EclipseJobs/article.html#eclipsejobs_uisynchronize
 
+synchAscynMethod : https://stackoverflow.com/questions/11100171/difference-between-syncexec-and-asyncexec-of-display-class
+
 Use this link to for all the detailed explantion
 ---------------------------------------------
 must reads :: 
