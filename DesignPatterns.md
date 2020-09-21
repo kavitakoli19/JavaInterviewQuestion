@@ -20,7 +20,8 @@ https://refactoring.guru/design-patterns/java
 
 
 ## Creational Design Patterns : 
-  - 1. Abstract factory :: Lets you produce families of related objects without specifiying there concrete classes.
+  - 1. Abstract factory :: Abstract Factory provides interfaces for creating families of related or dependent objects without specifying their concrete classes.
+        ex . XML API implements abstract factory. There is a class name SchemaFactory. 
   
   - 2. Builder :: Lets you construct complex objects step by step. The pattern allows you to produce different types
                   and representations of an object using the same construction code.
