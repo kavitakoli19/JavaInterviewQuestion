@@ -1,3 +1,5 @@
+https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
+
 1. StringBuffer is implemented by using synchronized keyword on all methods.
 
 ### 2. Why do we need Wrapper Classes in Java?
@@ -88,8 +90,93 @@ int bigValue = 280;
 byte small = (byte) bigValue;
 System.out.println(small);//output 24. Only 8 bits remain.
 ```
+### 9. What is Upcasting and Downcasting in java?
 
-### 9.What are differences between String and StringBuffer?
+ - referred from :: https://www.geeksforgeeks.org/upcasting-vs-downcasting-in-java/?ref=leftbar-rightbar
+ - Typecasting is one of the most important concepts which basically deals with the conversion of one data type to another datatype implicitly or explicitly.
+ - Just like the datatypes, the objects can also be typecasted.
+ - However, in objects, there are only two types of objects (i.e.) parent object and child object. 
+ - Therefore, typecasting of objects basically mean that one type of object (i.e.) child or parent to another.
+    - #### Upcasting: 
+            Upcasting is the typecasting of a child object to a parent object. Upcasting can be done implicitly. Upcasting gives us the flexibility to access the                           parent class members but it is not possible to access all the child class members using this feature. Instead of all the members, we can access some specified                   members of the child class. For instance, **we can access the overridden methods**.
+    - #### Downcasting: 
+            Similarly, downcasting means the typecasting of a parent object to a child object. Downcasting cannot be implicitly.
+            
+            
+   ```
+// Parent class 
+class Parent { 
+	String name; 
+
+	// A method which prints the 
+	// signature of the parent class 
+	void method() 
+	{ 
+		System.out.println("Method from Parent"); 
+	} 
+} 
+```
+
+```
+
+// Child class 
+class Child extends Parent { 
+	int id; 
+
+	// Overriding the parent method 
+	// to print the signature of the 
+	// child class 
+	@Override
+	void method() 
+	{ 
+		System.out.println("Method from Child"); 
+	} 
+} 
+```
+```
+// Demo class to see the difference 
+// between upcasting and downcasting 
+public class GFG { 
+
+	// Driver code 
+	public static void main(String[] args) 
+	{ 
+		// Upcasting 
+		Parent p = new Child(); 
+		p.name = "GeeksforGeeks"; 
+
+		// This parameter is not accessible 
+		// p.id = 1; 
+		System.out.println(p.name); 
+		p.method(); 
+
+		// Trying to Downcasting Implicitly 
+		// Child c = new Parent(); - > compile time error 
+
+		// Downcasting Explicitly 
+		Child c = (Child)p; 
+
+		c.id = 1; 
+		System.out.println(c.name); 
+		System.out.println(c.id); 
+		c.method(); 
+	} 
+} 
+
+   ```
+   
+  ```
+  Output:
+  GeeksforGeeks
+  Method from Child
+  GeeksforGeeks
+  1
+  Method from Child
+  ```
+     
+
+  
+### 10.What are differences between String and StringBuffer?
 - Objects of type String are immutable. StringBuffer is used to represent values that can be
 modified.
 - In situations where values are modified a number to times, StringBuffer yields significant
@@ -98,16 +185,16 @@ performance benefits.
 - StringBuffer is implemented by using synchronized keyword on all methods.
 
 
-### 10. What are differences between StringBuilder and StringBuffer?
+### 11. What are differences between StringBuilder and StringBuffer?
 StringBuilder is not thread safe. So, it performs better in situations where thread safety is not required.
 
-### 11. String are immutable in java
+### 12. String are immutable in java
 
-### 12. All wrapper types in java are immutable
+### 13. All wrapper types in java are immutable
 
-### 13 How to create immtable class in java
+### 14 How to create immutable class in java
 
-### 14 Where are string values stored in memory?
+### 15 Where are string values stored in memory?
 
 - Approach 1
 In the example below we are directly referencing a String literal.
@@ -128,4 +215,6 @@ will not be any reuse of values.
 //String Object - created on the heap
 String str2 = new String("value");
 ```
+
+
 
