@@ -97,14 +97,14 @@ System.out.println(small);//output 24. Only 8 bits remain.
  - Just like the datatypes, the objects can also be typecasted.
  - However, in objects, there are only two types of objects (i.e.) parent object and child object. 
  - Therefore, typecasting of objects basically mean that one type of object (i.e.) child or parent to another.
-    - #### Upcasting: 
+    - **Upcasting:** 
             Upcasting is the typecasting of a child object to a parent object. Upcasting can be done implicitly. Upcasting gives us the flexibility to access the                           parent class members but it is not possible to access all the child class members using this feature. Instead of all the members, we can access some specified                   members of the child class. For instance, **we can access the overridden methods**.
-    - #### Downcasting: 
+    - **Downcasting:** 
             Similarly, downcasting means the typecasting of a parent object to a child object. Downcasting cannot be implicitly.
             
             
-   ```
-// Parent class 
+``` 
+//Parent class 
 class Parent { 
 	String name; 
 
@@ -118,7 +118,6 @@ class Parent {
 ```
 
 ```
-
 // Child class 
 class Child extends Parent { 
 	int id; 
