@@ -191,9 +191,9 @@ StringBuilder is not thread safe. So, it performs better in situations where thr
 
 ### 13. All wrapper types in java are immutable
 
-### 14 How to create immutable class in java
+### 14. How to create immutable class in java?
 
-### 15 Where are string values stored in memory?
+### 15. Where are string values stored in memory?
 
 - Approach 1
 In the example below we are directly referencing a String literal.
@@ -215,12 +215,13 @@ will not be any reuse of values.
 String str2 = new String("value");
 ```
 
-### 16 Output of below snippet
+### 16. Output of below snippet ?
+
 #### Snippet 1: 
 
 ```
 SampleCode s = new SampleCode();
-s.method(1,1);
+s.method(1,1); //compile time error
 
 void method(long a,int b) { }
 
@@ -260,3 +261,48 @@ First float then int 1.0 1
 
 ```
 
+
+### 17. Output of below snippet ?
+
+#### Snippet 1 :: 
+```
+SampleCode s = new SampleCode();
+s.method(NULL); // Compile time error
+
+public void method(String string) {
+	System.out.println("With String argument " + string);
+}
+
+public void method(Object object) {
+	System.out.println("With Object parameter " + object);
+}
+
+```
+
+#### Output
+```
+NULL cannot be resolved to a variable
+
+```
+
+#### Snippet 1 ::
+
+```
+SampleCode s = new SampleCode();
+s.method(null);
+
+public void method(String string) {
+	System.out.println("With String argument " + string);
+}
+
+public void method(Object object) {
+	System.out.println("With Object parameter " + object);
+}
+
+```
+
+#### Output
+```
+With String argument null
+
+```
