@@ -215,5 +215,48 @@ will not be any reuse of values.
 String str2 = new String("value");
 ```
 
+### 16 Output of below snippet
+#### Snippet 1: 
 
+```
+SampleCode s = new SampleCode();
+s.method(1,1);
+
+void method(long a,int b) { }
+
+void method(int a,long b) { )
+}
+	
+```
+#### Output
+```
+Compile Time Error : 
+
+The method method1(int, long) is ambiguous for the type SampleCode
+
+```
+
+#### Snippet 2: 
+
+```
+SampleCode s = new SampleCode();
+s.method1(1,1);
+s.method2(1,1);
+
+void method1(long a,int b) { 
+	System.out.println("First long then int :: " + a+" "+b);
+}
+
+void method2(float a,int b) { 
+	System.out.println("First float then int :: " + a+" "+b);
+}
+
+```
+#### Output
+```
+First long then int 1 1
+
+First float then int 1.0 1
+
+```
 
