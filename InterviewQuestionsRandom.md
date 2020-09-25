@@ -421,3 +421,12 @@ NullPointerException
 
 https://www.programmingmitra.com/2016/11/Java-Cloning-Types-of-Cloning-Shallow-Deep-in-Details-with-Example.html
 
+
+### 19. Exception Handling with Method Overriding in Java
+
+Conclusion for Handling such Exceptions: Hence, following conclusions can be derived from the above examples:
+
+- If SuperClass does not declare an exception, then the SubClass can only declare unchecked exceptions, but not the checked exceptions.
+- If SuperClass declares an exception, then the SubClass can only declare the child exceptions of the exception declared by the SuperClass, but not any other exception.
+- If SuperClass declares an exception, then the SubClass can declare without exception.
+
