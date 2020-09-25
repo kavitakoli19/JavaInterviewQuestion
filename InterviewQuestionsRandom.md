@@ -416,3 +416,8 @@ it’s inherited from Exception class and hence this code compiles fine and when
 NullPointerException
 
 ```
+
+### 18. Shallow Clonning vs Deep Clonning
+
+https://www.programmingmitra.com/2016/11/Java-Cloning-Types-of-Cloning-Shallow-Deep-in-Details-with-Example.html
+
