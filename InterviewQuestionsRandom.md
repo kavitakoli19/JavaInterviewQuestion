@@ -285,7 +285,7 @@ NULL cannot be resolved to a variable
 
 ```
 
-#### Snippet 1 ::
+#### Snippet 2 ::
 
 ```
 SampleCode s = new SampleCode();
@@ -303,6 +303,116 @@ public void method(Object object) {
 
 #### Output
 ```
+Please note :: The reason behind this is java compiler tries to find out 
+the method with most specific input parameters to invoke a method. 
+We know that Object is the parent class of String, so the choice was easy
+
+```
+
+```
 With String argument null
+
+```
+
+
+#### Snippet 3 ::
+
+```
+SampleCode s = new SampleCode();
+s.method(null); //Compile time error
+
+public void method(String string) {
+	System.out.println("With String argument " + string);
+}
+
+public void method(Object object) {
+	System.out.println("With Object parameter " + object);
+}
+
+public void method(Integer inte) {
+	System.out.println("With Integer parameter " + inte);
+}
+
+```
+
+#### Output
+
+```
+You will get compile time error as The method method(String) is ambiguous for the type SampleCode 
+because both String and Integer class have Object as parent class and there is no inheritance.
+So java compiler doesn’t consider any of them to be more specific, hence the method ambiguous call error.
+```
+```
+The method method(String) is ambiguous for the type SampleCode
+
+```
+
+
+#### Snippet 4 ::
+
+```
+SampleCode s = new SampleCode();
+s.method(null); //Compile time error
+
+public void method(Number number) {
+	System.out.println("With number argument " + number);
+}
+
+public void method(Object object) {
+	System.out.println("With Object parameter " + object);
+}
+
+public void method(Integer inte) {
+	System.out.println("With Integer parameter " + inte);
+}
+
+```
+
+#### Output
+
+```
+As above explained, here method(Integer inte) is the most specific method because 
+it’s inherited from Number class and hence this code compiles fine and 
+when executed prints With Integer parameter
+```
+```
+With Integer parameter null
+
+```
+
+
+### Snippet 5 :: 
+
+```
+package com.journaldev.strings;
+
+public class Test {
+
+	public void foo(Object o) {
+		System.out.println("Object");
+	}
+
+	public void foo(Exception e) {
+		System.out.println("Exception");
+	}
+
+	public void foo(NullPointerException ne) {
+		System.out.println("NullPointerException");
+	}
+
+	public static void main(String[] args) {
+		new Test().foo(null);
+	}
+
+}
+
+```
+As above explained, here foo(NullPointerException ne) is the most specific method because 
+it’s inherited from Exception class and hence this code compiles fine and when executed prints “NullPointerException”.
+```
+```
+#### Output
+```
+NullPointerException
 
 ```
