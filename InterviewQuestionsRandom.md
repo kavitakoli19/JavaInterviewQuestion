@@ -7,6 +7,7 @@ https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting
 ### 3. Y is java called platform independant?
 
 ### 2. Can we override object class methods in an inteface?
+	Yes we can. But only non final ones.
 
 ### 3. what are solid principles?
 
