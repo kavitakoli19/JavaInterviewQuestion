@@ -11,21 +11,21 @@ https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting
 
 ### 3. what are solid principles?
 
-	- Single-responsibility Principle
+	**Single-responsibility Principle**
 		- A class should have one and only one reason to change, meaning that a class should have only one job.
 
-	- Open-closed Principle
+	**Open-closed Principle**
 		- Objects or entities should be open for extension, but closed for modification.
 
-	- Liskov substitution principle
+	**Liskov substitution principle**
 		- All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
 
 
-	- Interface segregation principle
+	**Interface segregation principle**
 		- A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
 
 
-	- Dependency Inversion principle
+	**Dependency Inversion principle**
 		- Entities must depend on abstractions not on concretions. 
 		- It states that the high level module must not depend on the low level module, but they should depend on abstractions.
 
@@ -41,7 +41,24 @@ https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting
 
 ### How many data types are there in java?
 
+	- 8
+	- These primitive data types are: byte, short, int, long, float, double, boolean, and char.
+	- The java.lang.String class represents character strings.
+
 ### What is the size of each data type in java?
+	
+	**Data Type**	**Size**	**Description**
+	
+	      byte	1 byte		Stores whole numbers from -128 to 127
+	      short	2 bytes		Stores whole numbers from -32,768 to 32,767
+	      int	4 bytes		Stores whole numbers from -2,147,483,648 to 2,147,483,647
+	      long	8 bytes		Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+	      float	4 bytes		Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+	      double	8 bytes		Stores fractional numbers. Sufficient for storing 15 decimal digits
+	      boolean	1 bit		Stores true or false values
+	      char	2 bytes		Stores a single character/letter or ASCII values
+
+
 
 ### Which is fastest sorting algo?
 	Merge Sort 
