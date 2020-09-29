@@ -58,7 +58,17 @@ All wrapper classes in java are immutabele.
 	
 ### Write hashcode and equals methods in java?
 
-
+### What is the difference between for and forEach loop in java?
+		**For Loop**						**ForEach**
+ 	- The for loop is a common repetition structure. 		- The foreach loop is a control structure for traversing items in an array or a collection.
+	It helps to iterate through a statement or a set of
+	statements in the program.
+	
+	- A for loop can be used to retrieve a particular set		- The foreach loop cannot be used to retrieve a particular set of elements
+	of elements.
+	
+	-The for loop is used as a general purpose loop.                - The foreach loop is used for arrays and collections. 
+ 
 ### 
 
 ### 1. StringBuffer is implemented by using synchronized keyword on all methods.
