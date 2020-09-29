@@ -1,6 +1,67 @@
 https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
 
-1. StringBuffer is implemented by using synchronized keyword on all methods.
+
+
+### 1. Is Java completely OOP language?
+
+### 3. Y is java called platform independant?
+
+### 2. Can we override object class methods in an inteface?
+
+### 3. what are solid principles?
+
+	- Single-responsibility Principle
+		- A class should have one and only one reason to change, meaning that a class should have only one job.
+
+	- Open-closed Principle
+		- Objects or entities should be open for extension, but closed for modification.
+
+	- Liskov substitution principle
+		- All this is stating is that every subclass/derived class should be substitutable for their base/parent class.
+
+
+	- Interface segregation principle
+		- A client should never be forced to implement an interface that it doesn't use or clients shouldn't be forced to depend on methods they do not use.
+
+
+	- Dependency Inversion principle
+		- Entities must depend on abstractions not on concretions. 
+		- It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+
+### 4. Why is lambda expression introduced in java 8?
+
+### 5. Why is default method introduced in java 8?
+
+### 6. What is generics in java? If it was introduced in java5 then how is the code backword compatible?
+       Generics is a concept used for compiler only. It veryfies the type at compile time only.
+       At run time it is treated as an object data type so it is backword compatible as there is no presence of generic classed while running the code.
+       
+### 7. How arrayList grows if it is created using consturcutor with size?
+
+### How many data types are there in java?
+
+### What is the size of each data type in java?
+
+### Which is fastest sorting algo?
+	Merge Sort 
+
+### What are wrapper classes in java and why are they introduced?
+All wrapper classes in java are immutabele.
+
+### Why we need immutable classes in java?
+    1 reason could be to use as hashMap keys.
+
+### is it required to have a HashMap key as an immutable class?
+	we can keep a immutable class as a key for HasMap but it is not mandatory.
+	Only thing is Mutable class should have cosnsidered its mutablity while designing HashCde and equals methods
+	All Wrappers are immutable in java.
+	
+### Write hashcode and equals methods in java?
+
+
+### 
+
+### 1. StringBuffer is implemented by using synchronized keyword on all methods.
 
 ### 2. Why do we need Wrapper Classes in Java?
 A wrapper class wraps (encloses) around a data type and gives it an object appearance.
