@@ -64,7 +64,7 @@ https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting
 	Merge Sort 
 
 ### What are wrapper classes in java and why are they introduced?
-All wrapper classes in java are immutabele.
+All wrapper classes in java are immutable.
 
 ### Why we need immutable classes in java?
     1 reason could be to use as hashMap keys.
