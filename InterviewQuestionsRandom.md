@@ -87,7 +87,11 @@ All wrapper classes in java are immutable.
 	
 	-The for loop is used as a general purpose loop.                - The foreach loop is used for arrays and collections. 
  
-### 
+### What is functional interface in java?
+	- It is an interface that contains exactly one abstract method.
+	- It can have any number of default or static methods along with object class mthods.
+	- Java provides predefined functional interfaces to deal with functional programming.
+	- Runnable,Comparable,ActionListener are some of the examples.
 
 ### 1. StringBuffer is implemented by using synchronized keyword on all methods.
 
