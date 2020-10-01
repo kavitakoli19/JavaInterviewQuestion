@@ -93,6 +93,20 @@ All wrapper classes in java are immutable.
 	- Java provides predefined functional interfaces to deal with functional programming.
 	- Runnable,Comparable,ActionListener are some of the examples.
 
+
+### Difference between comparable and comparator in java?
+
+	- In summary, if sorting of objects needs to be based on natural order then use Comparable 
+	  whereas if you sorting needs to be done on attributes of different objects,
+	  then use Comparator in Java.
+	- in java 7 there were only equals and compare() method were in comprator interface but in java 8 some default to support functional programming using 
+	lambda expressions
+
+ - https://www.javatpoint.com/Comparator-interface-in-collection-framework
+ - https://www.javatpoint.com/Comparable-interface-in-collection-framework#:~:text=Java%20Comparable%20interface%20is%20used,of%20single%20data%20member%20only.
+ 
+- https://www.geeksforgeeks.org/comparable-vs-comparator-in-java/
+
 ### 1. StringBuffer is implemented by using synchronized keyword on all methods.
 
 ### 2. Why do we need Wrapper Classes in Java?
