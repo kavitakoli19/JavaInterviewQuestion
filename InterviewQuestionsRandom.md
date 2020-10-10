@@ -7,6 +7,24 @@ https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting
 ### 2. Ways to create java object
 https://www.javatpoint.com/how-many-ways-to-create-an-object-in-java
 
+### Output of following code is
+int mathcCal() {
+		try {
+			//int i = 2/0;
+			return 1;
+		}catch(Exception e) {
+			System.out.println(e);
+		}finally {
+			System.out.println("Finally");
+			return 2;
+		}
+		}
+}
+
+
+Return 2
+it will always return fianally block return 
+
 ### 3. Y is java called platform independant?
 
 ### 2. Can we override object class methods in an inteface?
